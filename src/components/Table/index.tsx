@@ -42,7 +42,7 @@ export const Table: React.FC<IProps> = ({ columns }) => (
     <tbody>
       <StyledTableRowHeader>
         {columns.map((column) => (
-          <StyledTableHeader>{column}</StyledTableHeader>
+          <StyledTableHeader key={column}>{column}</StyledTableHeader>
         ))}
       </StyledTableRowHeader>
       <StyledTableRow>
