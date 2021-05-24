@@ -1,0 +1,6 @@
+//  resolve className don't match on server and client
+// source - https://github.com/vercel/next.js/issues/7322#issuecomment-786380561
+{
+  "presets": ["next/babel"],
+  "plugins": [["styled-components", { "ssr": true, "preprocess": false }]]
+}
