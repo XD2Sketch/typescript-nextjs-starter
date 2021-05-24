@@ -15,7 +15,8 @@ npx create-next-app xd2sketch-coding-ts -e https://github.com/XD2Sketch/typescri
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
-2. `yarn dev`;
+1. `yarn` - install dependencies
+1. `yarn dev` - start development server
 
 To view the project open `http://localhost:3000`.
 ## 📝 License
